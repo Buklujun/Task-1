@@ -1,5 +1,5 @@
 public interface Function {
 
-	boolean f(String a, String b);
+	public boolean f(String a, String b);
 
 }

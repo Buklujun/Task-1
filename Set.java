@@ -1,15 +1,14 @@
 public class Set {
 
-	public String[] mass;
-	int over;
-	int size;
+	private String[] mass;
+	private int over;
+	private int size;
 
-	Set(int val) {
+	public Set(int val) {
 
 		mass = new String[val];
 		size = 0;
 		over = val;
-
 	}
 
 	public boolean add(String val, Function f) {
