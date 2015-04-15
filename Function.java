@@ -1,5 +1,5 @@
-public interface Function{
+public interface Function {
 
-boolean f(String a, String b);
+	boolean f(String a, String b);
 
 }
